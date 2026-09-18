@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PixelOS 17 manifest for OnePlus 15T (fairlady). -->
+<manifest>
+  <project name="OP15TPixelOS/android_device_oneplus_fairlady" path="device/oneplus/fairlady" remote="github" revision="lineage-24.0" />
+  <project name="OP15TPixelOS/android_device_oneplus_fairlady-kernel" path="device/oneplus/fairlady-kernel" remote="github" revision="lineage-24.0" />
+  <project name="OP15TPixelOS/proprietary_vendor_oneplus_fairlady" path="vendor/oneplus/fairlady" remote="github" revision="lineage-24.0" />
+  <project name="OP15TPixelOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-24.0" />
+  <project name="OnePlus-SM8850-Development/android_device_oneplus_sm8850-common" path="device/oneplus/sm8850-common" remote="github" revision="lineage-24.0" />
+  <project name="OnePlus-SM8850-Development/proprietary_vendor_oneplus_sm8850-common" path="vendor/oneplus/sm8850-common" remote="github" revision="lineage-24.0" />
+</manifest>

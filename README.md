@@ -17,6 +17,19 @@ Then, sync the repository:
 repo sync
 ```
 
+## OnePlus 15T (fairlady)
+
+Use the device manifest for the fairlady PixelOS 17 tree:
+
+```bash
+repo init -u https://github.com/OP15TPixelOS/android_manifest.git -b seventeen -m fairlady.xml --git-lfs
+repo sync
+```
+
+The `patches/` directory contains reproducible diffs for the AOD and haptic
+changes. The corresponding source repositories should be checked out at the
+same revisions before applying them.
+
 ## Building the System
 
 Initialize the ROM build environment by sourcing the envsetup.sh script:
