@@ -22,7 +22,7 @@ repo sync
 Use the device manifest for the fairlady PixelOS 17 tree:
 
 ```bash
-repo init -u https://github.com/OP15TPixelOS/android_manifest.git -b seventeen -m fairlady.xml --git-lfs
+repo init -u https://github.com/OP15TPixelOS/android_manifest.git -b seventeen -m default.xml --git-lfs
 repo sync
 ```
 
